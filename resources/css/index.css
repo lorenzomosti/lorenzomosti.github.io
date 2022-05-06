@@ -19,7 +19,7 @@ body {
     color:white;
     font-family: 'Commissioner', sans-serif;
     line-height: 2;
-    font-size: 16px;
+    font-size: min(4vw, 1rem);
     overflow:hidden;
 }
 .bar {
@@ -190,6 +190,7 @@ h1 {
 ul {
     list-style: none;
     padding:1em  2em;
+    font-size: min(4vw, 1rem);
 }
 
 li {
