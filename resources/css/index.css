@@ -11,7 +11,7 @@
     min-width: 70%;
     margin: 0 auto;
     padding-top: 10px;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100vh;
     overflow: scroll;
 }
@@ -71,7 +71,7 @@ h2 {
 .menu img{
     width: 18%;
     border-radius: 50%;
-    margin-top: 1em;
+    margin-top: 1rem;
     box-shadow: 3px 1px 20px gray;
 }
 
@@ -98,7 +98,7 @@ h3 {
     margin-top: 0;
 }
 p {
-    padding:1em  2em;
+    padding:1rem  2rem;
 }
 
 .btn {
@@ -106,10 +106,10 @@ p {
     color: white;
     background-color:rgb(0, 133, 255);
     font-size: 1rem;
-    padding: 1.5em 2.5em;
-    border-radius: 1em;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
     display: block;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
 .btn:hover{
@@ -134,7 +134,7 @@ p {
 
 strong{
     background-color: white;
-    padding: 0.1em;
+    padding: 0.1rem;
     color: #936BFB;
     border-radius: 2x;
 }
@@ -190,12 +190,11 @@ h1 {
 
 ul {
     list-style: none;
-    padding:1em  2em;
+    padding:1rem  2rem;
 }
 
 li {
     margin-bottom: 10px;
-    font-size:1rem;
 }
 
 .list-skills {
