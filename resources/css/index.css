@@ -229,3 +229,9 @@ h4 {
 .icon{
     width: 60%;
 }
+
+.skills-icon{
+    width: 7%;
+    margin-left: 10px;
+    vertical-align:middle;
+}
