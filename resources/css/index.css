@@ -19,7 +19,7 @@ body {
     color:white;
     font-family: 'Commissioner', sans-serif;
     line-height: 2;
-    font-size: min(3vw, 1rem);
+    font-size: 1rem;
     overflow:hidden;
 }
 .bar {
@@ -35,7 +35,7 @@ body {
 }
 
 h2 {
-    font-size: min(4vw, 2rem);
+    font-size: 2rem;
     color: #FF236A;
     font-weight: 300;
 
@@ -48,7 +48,7 @@ h2 {
     padding-bottom:20px;
 }
 .menu h1 {
-    font-size: min(7vw, 3rem);
+    font-size: 3rem;
 }
 
 .menu h1:hover {
@@ -195,8 +195,8 @@ ul {
 
 li {
     margin-bottom: 10px;
-    font-size: 16p;
     font-size: min(4vw, 1rem);
+    font
 }
 
 .list-skills {
