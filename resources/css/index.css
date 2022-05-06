@@ -105,7 +105,7 @@ p {
     border: 3px solid rgb(0, 133, 255);
     color: white;
     background-color:rgb(0, 133, 255);
-    font-size: min(4vw, 1rem);
+    font-size: 1rem;
     padding: 1.5em 2.5em;
     border-radius: 1em;
     display: block;
@@ -121,7 +121,7 @@ p {
 
 .nav {
     background-color: rgba(0, 133, 255, 0);
-    font-size: min(2.5vw, 1rem);
+    font-size: 1rem;
     color: white;
     border: none;
     width: 20%;
@@ -195,7 +195,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    font-size: min(4vw, 1rem);
+    font-size:1rem;
     font
 }
 
