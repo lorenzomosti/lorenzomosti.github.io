@@ -19,7 +19,7 @@ body {
     color:white;
     font-family: 'Commissioner', sans-serif;
     line-height: 2;
-    font-size: min(3vw, 1rem);
+    font-size: 16px;
     overflow:hidden;
 }
 .bar {
