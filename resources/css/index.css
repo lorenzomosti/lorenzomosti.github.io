@@ -19,7 +19,7 @@ body {
     color:white;
     font-family: 'Commissioner', sans-serif;
     line-height: 2;
-    font-size: 16px;
+    font-size: min(3vw, 1rem);
     overflow:hidden;
 }
 .bar {
@@ -155,8 +155,9 @@ strong{
     position: fixed;
     height: 50px;
     background-color: rgba(0, 133, 255, 0);
-    bottom: 0px;
-    width: 80%;
+    opacity: 70%;
+    bottom: 5px;
+    font-size:1rem;
     margin-bottom: 0px;
 }
 
@@ -190,11 +191,12 @@ h1 {
 ul {
     list-style: none;
     padding:1em  2em;
-    font-size: min(4vw, 1rem);
 }
 
 li {
     margin-bottom: 10px;
+    font-size: 16p;
+    font-size: min(3vw, 1rem);
 }
 
 .list-skills {
