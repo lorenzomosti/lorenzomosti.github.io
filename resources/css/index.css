@@ -179,7 +179,7 @@ a {
     border-radius: 20px;
     margin-bottom: 1rem;
     padding: 5%;
-    width: 90%;
+    width: min(90%, 500px);
     margin: auto;
 }
 
