@@ -23,7 +23,8 @@ body {
     overflow:hidden;
 }
 .bar {
-    background-color:rgba(0, 133, 255, 0.3);
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
     text-align: center;
     padding: 1rem;
     width: 100%;
