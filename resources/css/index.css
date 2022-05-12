@@ -6,15 +6,6 @@
     box-sizing: border-box;
 }
 
-.main-container {
-    max-width: 800px;
-    min-width: 70%;
-    margin: 0 auto;
-    padding-top: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
-    height: 100vh;
-    overflow: scroll;
-}
 body {
     color:white;
     font-family: 'Commissioner', sans-serif;
@@ -22,6 +13,7 @@ body {
     font-size: 1rem;
     height: 100vh;
 }
+
 .bar {
     background-color:rgba(0, 0, 0, 0.2);
     border-radius: 40px;
@@ -35,11 +27,21 @@ body {
     position: fixed;
 }
 
-h2 {
-    font-size: 2rem;
-    color: #FF236A;
-    font-weight: 300;
+main {
+    background-image: linear-gradient(to bottom, #936BFB, #FF236A);
+    background-repeat:no-repeat;
+    width: 100%;
+    height:100vh;
+}
 
+.main-container {
+    max-width: 800px;
+    min-width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100vh;
+    overflow: scroll;
 }
 
 .menu {
@@ -64,6 +66,12 @@ h2 {
     to {color:#008A62;}
 }
 
+h2 {
+    font-size: 2rem;
+    color: #FF236A;
+    font-weight: 300;
+
+}
 
 .container {
     width: 100%;
@@ -147,13 +155,6 @@ strong{
     margin-right: 10px;
 }
 
-.general-container {
-    background-image: linear-gradient(to bottom, #936BFB, #FF236A);
-    background-repeat:no-repeat;
-    width: 100%;
-    height:100vh;
-}
-
 .bar2{
     position: fixed;
     height: 50px;
@@ -169,21 +170,13 @@ a {
     color: white;
 }
 
-.hard-skills{
+.bubble{
     background-color: #936BFB;
     border-radius: 20px;
     margin-bottom: 1rem;
     padding: 5%;
     width: min(90%, 500px);
     margin:auto;
-}
-.soft-skills{
-    background-color: #936BFB;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-    padding: 5%;
-    width: min(90%, 500px);
-    margin: auto;
 }
 
 ul {
