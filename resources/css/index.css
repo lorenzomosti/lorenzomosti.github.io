@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width:600px){
+    .bar {
+        position: sticky;
+    }
+}
 body {
     color:white;
     font-family: 'Commissioner', sans-serif;
