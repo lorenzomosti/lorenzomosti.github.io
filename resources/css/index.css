@@ -26,34 +26,13 @@ body {
     
 }
 
-.bar {
-    background-color:#936BFB;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    position: sticky;
-}
-
-mains{
-    border-radius: 50px;
-    max-width: 1000px;
-    min-width: 100%;
-    margin: 0 auto;
-    padding-top: 10px;
-    height: 100vh;
-    overflow: scroll;
-}
-
 .menu {
     text-align: center;
     margin-top: 60px;
     color: rgb(0, 132, 255);
     padding-bottom:20px;
 }
+
 .menu h1 {
     font-size: min(12vw, 3rem);
     font-family: 'Bodoni Moda', serif;
@@ -75,12 +54,6 @@ h2 {
     margin-bottom: 2.25rem;
     color: #FF236A;
     font-weight: 300;
-
-}
-
-.containers {
-    width: 100%;
-    padding: 20px;
 
 }
 
@@ -221,7 +194,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .icon{
