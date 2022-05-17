@@ -36,7 +36,6 @@ body {
 h1 {
     font-family: 'Bodoni Moda', serif;
     font-weight: 800;
-    text-transform: uppercase;
 }
 
 .menu h1:hover {
