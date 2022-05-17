@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (max-width: 600px) {
+    .skills-icon {
+      display: none;
+    }
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, #ffffff, #a9d1fb, #9fc8f7, #97bef2, #8fb5ee, #91abee, #98a0ec, #a393e7, #c27eda, #e064bf, #f64499, #ff236a);
+    background-repeat: no-repeat;
+    font-family: 'Commissioner', sans-serif;
+    line-height: 2;
+    color: white;
+  }
+  
+  .menu {
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(0, 132, 255);
+    padding-bottom: 20px;
+  
+    h1 {
+      font-size: min(12vw, 3rem);
+      font-family: 'Bodoni Moda', serif;
+      font-weight: 800;
+      text-transform: uppercase;
+  
+      &:hover {
+        animation: frombluetogreen;
+        animation-duration: 1s;
+      }
+    }
+  }
+  
+  @keyframes frombluetogreen {
+    from {
+      color: rgb(0, 133, 255);
+    }
+  
+    to {
+      color: #008A62;
+    }
+  }
+  
+  h2 {
+    font-size: min(10vw, 2.25rem);
+    margin-bottom: 2.25rem;
+    color: #FF236A;
+    font-weight: 300;
+  }
+  
+  .me {
+    width: max(18%, 150px);
+    border-radius: 50%;
+    box-shadow: 3px 1px 20px gray;
+    margin-bottom: 1rem;
+  }
+  
+  .menu img:hover {
+    animation-name: example;
+    animation-duration: 1s;
+    box-shadow: 3px 1px 20px gray;
+  }
+  
+  @keyframes example {
+    from {
+      border-radius: 50%;
+    }
+  
+    to {
+      border-radius: 10%;
+    }
+  }
+  
+  h3 {
+    color: #936BFB;
+    text-align: center;
+    font-weight: 800;
+    margin: 2rem 0;
+    font-size: min(8vw, 2rem);
+  }
+  
+  #first-title {
+    margin-top: 0;
+  }
+  
+  .btn {
+    border: none;
+    color: white;
+    background-color: rgb(0, 133, 255);
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.8rem;
+    display: block;
+    margin: 3rem auto;
+  
+    &:hover {
+      background-color: rgb(0, 133, 255);
+      box-shadow: 3px 1px 20px white;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+  }
+  
+  .nav {
+    background-color: rgba(0, 133, 255, 0);
+    color: white;
+    border: none;
+    width: 20%;
+    font-size: min(7vw, 1rem);
+  
+    &:hover {
+      font-weight: 600;
+    }
+  }
+  
+  strong {
+    background-color: white;
+    padding: 0.1rem;
+    color: #936BFB;
+    border-radius: 2x;
+  }
+  
+  .emoji {
+    margin: 1rem;
+    vertical-align: baseline;
+  }
+  
+  .bar2 {
+    position: fixed;
+    height: 50px;
+    background-color: rgba(0, 133, 255, 0);
+    opacity: 70%;
+    bottom: 5px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bubble {
+    background-color: #936BFB;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    padding: 5%;
+    width: min(90%, 700px);
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 1rem  2rem;
+    text-indent: min(-3rem, -1vw);
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .list-skills {
+    list-style: c;
+  }
+  
+  h4 {
+    color: #FF236A;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .last-box {
+    margin-top: 2rem;
+  }
+  
+  .change-colour {
+    background-color: #FF236A;
+  }
+  
+  .change-colour-contacts {
+    background-color: rgb(0, 133, 255);
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .icon {
+    width: 55%;
+  }
+  
+  .skills-icon {
+    width: 7%;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  
+  label {
+    padding: 0.5rem 0;
+  }
+  
+  .btn-white {
+    background-color: white;
+    color: rgb(0, 133, 255);
+    font-weight: 700;
+    border: none;
+  
+    &:hover {
+      background-color: white;
+      box-shadow: 3px 1px 20px white;
+      color: rgb(0, 133, 255);
+      cursor: pointer;
+      border: none;
+    }
+  }
+  
+  .nav-link {
+    color: rgb(0, 133, 255);
+    font-weight: 700;
+  
+    &:hover {
+      color: #FF236A;
+    }
+  }

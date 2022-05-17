@@ -13,9 +13,6 @@ html {
     .skills-icon {
         display: none;
     }
-    .navbar {
-        position: fixed;
-    }
   }
 
 body {
@@ -23,8 +20,8 @@ body {
     background-repeat:no-repeat;
 
     font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
     line-height: 2;
-    font-size: min(3vw, 1rem);
     color: white;
     
 }
@@ -36,8 +33,7 @@ body {
     padding-bottom:20px;
 }
 
-.menu h1 {
-    font-size: min(12vw, 3rem);
+h1 {
     font-family: 'Bodoni Moda', serif;
     font-weight: 800;
     text-transform: uppercase;
@@ -54,10 +50,9 @@ body {
 }
 
 h2 {
-    font-size:min(10vw, 2.25rem);
     margin-bottom: 2.25rem;
     color: #FF236A;
-    font-weight: 300;
+    font-weight: 800;
 
 }
 
@@ -84,7 +79,6 @@ h3 {
     text-align: center;
     font-weight: 800;
     margin: 2rem 0;
-    font-size:min(8vw, 2rem);
 }
 
 #first-title {
@@ -96,7 +90,6 @@ h3 {
     border: none;
     color: white;
     background-color:rgb(0, 133, 255);
-    font-size: 1rem;
     padding: 1.25rem 2.5rem;
     border-radius: 0.8rem;
     display: block;
@@ -116,7 +109,6 @@ h3 {
     color: white;
     border: none;
     width: 20%;
-    font-size: min(7vw, 1rem);
 }
 
 .nav:hover{
@@ -137,16 +129,6 @@ strong{
     vertical-align:baseline;
 }
 
-.bar2{
-    position: fixed;
-    height: 50px;
-    background-color: rgba(0, 133, 255, 0);
-    opacity: 70%;
-    bottom: 5px;
-    font-size:1rem;
-    margin-bottom: 0px;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -164,7 +146,7 @@ a {
 ul {
     list-style: none;
     padding:1rem  2rem;
-    text-indent:min(-3rem, -1vw);
+    text-indent: -12px;
 }
 
 li {
@@ -189,6 +171,10 @@ h4 {
     background-color: #FF236A;
 }
 
+.change-colour-text{
+    color: #FF236A;
+}
+
 .change-colour-contacts {
     background-color: rgb(0, 133, 255);
 }
@@ -198,11 +184,16 @@ h4 {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 2rem 0;
 }
 
 .icon{
-    width: 55%;
+    width: 50%;
+}
+
+.icon:hover {
+    box-shadow: 3px 1px 20px white;
+    border-radius: 100%;
+    border: none;
 }
 
 .skills-icon{
@@ -216,7 +207,7 @@ h5 {
 }
 
 label {
-    padding: 0.5rem 0;
+    padding: 8px 0;
 }
 
 .btn-white {
@@ -244,3 +235,6 @@ label {
     color: #FF236A;
 }
 
+.change-colour-text-contacts{
+    color:rgb(0, 133, 255);
+}
