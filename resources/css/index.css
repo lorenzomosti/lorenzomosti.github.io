@@ -37,6 +37,7 @@ body {
     font-size: min(12vw, 3rem);
     font-family: 'Bodoni Moda', serif;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .menu h1:hover {
@@ -234,7 +235,6 @@ label {
 .nav-link {
     color:rgb(0, 133, 255);
     font-weight: 700;
-    font-family: Bodoni Moda;
 }
 
 .nav-link:hover {
