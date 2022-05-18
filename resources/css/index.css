@@ -144,8 +144,7 @@ a {
 
 ul {
     list-style: none;
-    padding:1rem  2rem;
-    text-indent: -12px;
+    text-indent: -14px;
 }
 
 li {
@@ -227,7 +226,8 @@ label {
 
 .nav-link {
     color:rgb(0, 133, 255);
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 120%;
 }
 
 .nav-link:hover {
