@@ -66,7 +66,7 @@ header h2 {
 }
 
 header img {
-  width: calc(max(20%, 150px));
+  width: 20vw;
   border-radius: 50%;
   -webkit-box-shadow: 3px 1px 20px gray;
           box-shadow: 3px 1px 20px gray;
@@ -100,9 +100,17 @@ header img:hover {
   }
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
 .nav-link {
   color: white;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.1rem;
 }
 
@@ -268,12 +276,13 @@ label {
   vertical-align: middle;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   .skills-icon, .icon-2 {
     display: none;
   }
   .navbar {
-    position: fixed;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0);
   }
   .nav-link {
     text-shadow: grey 1px 1px 10px;

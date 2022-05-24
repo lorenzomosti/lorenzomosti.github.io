@@ -53,7 +53,7 @@ header h2 {
 }
 
 header img{
-  width: calc(max(20%, 150px));
+  width: 20vw;
   border-radius: 50%;
   box-shadow: 3px 1px 20px gray;
   margin-bottom: 1rem;
@@ -70,9 +70,16 @@ header img:hover{
   to {border-radius: 10%;}
 }
 
+.navbar {
+  background-color: rgba(0,0,0,0.1);
+  padding:0;
+  position:sticky;
+  top:0px;
+}
+
 .nav-link {
   color:white;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.1rem;
 }
 
@@ -234,12 +241,13 @@ label {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   .skills-icon, .icon-2 {
       display: none;
   }
   .navbar {
-    position: fixed;
+    top:20px;
+    background-color: rgba(0,0,0,0);
   
   }
 
