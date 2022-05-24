@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* General rules */
 * {
   margin: 0;
@@ -11,8 +12,8 @@ html {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(#a9d1fb), color-stop(#9fc8f7), color-stop(#97bef2), color-stop(#8fb5ee), color-stop(#91abee), color-stop(#98a0ec), color-stop(#a393e7), color-stop(#c27eda), color-stop(#e064bf), color-stop(#f64499), to(#ff236a));
-  background-image: linear-gradient(to bottom, #ffffff, #a9d1fb, #9fc8f7, #97bef2, #8fb5ee, #91abee, #98a0ec, #a393e7, #c27eda, #e064bf, #f64499, #ff236a);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9fc8f7), color-stop(#97bef2), color-stop(#8fb5ee), color-stop(#91abee), color-stop(#98a0ec), color-stop(#a393e7), color-stop(#c27eda), color-stop(#e064bf), color-stop(#f64499), to(#ff236a));
+  background-image: linear-gradient(to bottom, #9fc8f7, #97bef2, #8fb5ee, #91abee, #98a0ec, #a393e7, #c27eda, #e064bf, #f64499, #ff236a);
   background-repeat: no-repeat;
   font-family: 'Commissioner', sans-serif;
   font-size: 1rem;
@@ -100,8 +101,8 @@ header img:hover {
 }
 
 .nav-link {
-  color: #0085ff;
-  font-weight: 300;
+  color: white;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 
@@ -125,7 +126,7 @@ section h3 {
   background-color: #936BFB;
   border-radius: 1.3rem;
   margin-bottom: 1rem;
-  padding: 5%;
+  padding: 4%;
   width: calc(min(90%, 700px));
   margin: auto;
 }
@@ -148,12 +149,13 @@ a {
 
 ul {
   list-style: none;
-  text-indent: -3rem;
-  margin: 0;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 li {
   margin-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 li:last-child {
@@ -196,7 +198,7 @@ h4 {
 }
 
 .icon {
-  width: 50%;
+  width: 40%;
 }
 
 .icon:hover {
@@ -260,8 +262,14 @@ label {
   border: none;
 }
 
+.icon-2 {
+  width: 6%;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
 @media (max-width: 600px) {
-  .skills-icon {
+  .skills-icon, .icon-2 {
     display: none;
   }
   .navbar {
@@ -276,5 +284,46 @@ label {
   body {
     font-size: 0.7rem;
   }
+}
+
+.light {
+  font-weight: 200;
+}
+
+/* list style */
+.style-1 {
+  list-style-type: "🧑";
+}
+
+.style-2 {
+  list-style-type: "🎂";
+}
+
+.style-3 {
+  list-style-type: "❤️";
+}
+
+.style-4 {
+  list-style-type: "💔";
+}
+
+.style-5 {
+  list-style-type: "🎓";
+}
+
+.style-6 {
+  list-style-type: "💼";
+}
+
+.style-7 {
+  list-style-type: "📖";
+}
+
+.style-8 {
+  list-style-type: "⚙️";
+}
+
+.style-9 {
+  list-style-type: "🪶";
 }
 /*# sourceMappingURL=index.css.map */
